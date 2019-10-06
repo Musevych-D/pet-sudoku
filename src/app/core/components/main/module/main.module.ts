@@ -11,4 +11,4 @@ import {MainRoutingModule} from './main-routing.module';
   declarations: [MainComponent],
   providers: [],
 })
-export default class MainModule {}
+export class MainModule {}

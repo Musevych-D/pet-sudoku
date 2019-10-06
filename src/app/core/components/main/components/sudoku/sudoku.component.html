@@ -1,3 +1,9 @@
-<p>
-  sudoku works!
-</p>
+<div class="sudoku">
+  <div class="sudoku__field">
+    <div class="sudoku__row" *ngFor="let row of sudokuField.fieldRows">
+      <div class="sudoku__cell" *ngFor="let cell of row.cells">
+        <div class="sudoku__cell-value">{{ cell.value }}</div>
+      </div>
+    </div>
+  </div>
+</div>

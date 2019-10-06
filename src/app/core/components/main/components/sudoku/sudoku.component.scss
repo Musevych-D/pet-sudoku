@@ -1,0 +1,41 @@
+.sudoku {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  .sudoku__field {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 400px;
+
+    .sudoku__row {
+      width: 100%;
+      height: calc(100% / 9);
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      flex-wrap: nowrap;
+      flex-direction: row;
+
+      .sudoku__cell {
+        position: relative;
+        width: calc(100% / 9);
+        height: 100%;
+        border: 1px solid black;
+
+        .sudoku__cell-value {
+          line-height: 100%;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate( -50%, -50%);
+        }
+      }
+    }
+  }
+}

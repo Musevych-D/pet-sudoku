@@ -7,7 +7,7 @@
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
-      "prefix": "app",
+      "prefix": "sdk",
       "schematics": {
         "@schematics/angular:component": {
           "style": "scss"

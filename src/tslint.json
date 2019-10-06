@@ -1,8 +1,8 @@
 {
   "extends": "../tslint.json",
   "rules": {
-    "directive-selector": [true, "attribute", "myf", "camelCase"],
-    "component-selector": [true, "element", "myf", "kebab-case"],
+    "directive-selector": [true, "attribute", "sdk", "camelCase"],
+    "component-selector": [true, "element", "sdk", "kebab-case"],
     "arrow-return-shorthand": true,
     "callable-types": true,
     "class-name": true,
